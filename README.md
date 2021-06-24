@@ -33,3 +33,33 @@ What it will ask you to do is:
 - Install the `ng cli`
 - Create a new project
 - Start the server
+
+### Components
+
+They have 3 important things:
+
+- styles (CSS)
+- template (HTML)
+- class (TS): Handles data and funtionality
+
+#### Template
+
+- Use ngFor to repeat a tag that traverses a list
+- ngIf to create only if condition is met
+- Interpolation {{ }}
+- Property binding [ ] and template expression
+- (click)="myfunction()" around events inside the template tags
+
+#### Class
+
+- @Component decorator
+- Export the class
+- Write the functionality
+- @Input property value passes from parent
+- @Output and Event Emitter
+
+## Tiempos que estoy usando
+
+- 30 mins la app esta corriendo
+- 60 mins creo mi primer componente localmente
+- 60 mins termino de darle estilos
